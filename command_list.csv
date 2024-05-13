@@ -1,0 +1,25 @@
+    1  git config --global user.name "Vova21031992"
+    2  git config --global user.email "vova0321@ukr.net"
+    3  git clone https://github.com/Vova21031992/HW_10
+    4  cd "C/D25/HW_10"
+    5  cd "C:\D25\HW_10"
+    6  touch text_ignore.txt
+    7  nano .gitignore
+    8  git status
+    9  git add
+   10  git add .
+   11  git commit -m "Додав файл text_ignore.txt"
+   12  touch main_test.txt
+   13  git add .
+   14  git commit -m "Додав порожній файл main_test.txt"
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "Додав порожній файл develop_test.txt"
+   19  git status
+   20  git add .
+   21  git commit -m "Внесені зміни в файл develop_test.txt"
+   22  git checkout main
+   23  git merge develop
+   24  git log
+   25  history > command_list.csv
